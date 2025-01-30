@@ -1,0 +1,346 @@
+{
+	"N3GPP Support": {
+    "default": false,
+    "value": false,
+    "comment": "Support for N3GPP",
+    "keywords": "N3GPP,Support,Suporte,a,N3GPP,Support,for,N3GPP"
+  },
+  "Slice Attributes": {
+    "Accuracy": {
+      "default": 1e-7,
+      "value": 1e-7,
+      "comment": "Precision",
+      "keywords": "Accuracy,Precisão,Precision"
+    },
+    "DN": {
+      "default": 1,
+      "value": 1,
+      "comment": "Data Network",
+      "keywords": "DN,Data,Network"
+    },
+    "MMTel": {
+      "default": true,
+      "value": true,
+      "comment": "MultiMedia Telephony",
+      "keywords": "MMTel,MultiMedia,Telephony"
+    },
+    "Maximum number of PDU sessions": {
+      "default": 1000,
+      "value": 1000,
+      "comment": "Maximum number of PDU sessions",
+      "keywords": "Maximum,number,of,PDU,sessions,Número,máximo,de,sessões,PDU,Maximum,number,of,PDU,sessions"
+    },
+    "Maximum number of UEs": {
+      "default": 100000,
+      "value": 100000,
+      "comment": "Maximum number of UEs",
+      "keywords": "Maximum,number,of,UEs,Número,máximo,de,UEs,Maximum,number,of,UEs"
+    },
+    "SSC": {
+      "default": 1,
+      "value": 1,
+      "comment": "Session and Service Continuity",
+      "keywords": "SSC,Session,and,Service,Continuity"
+    },
+    "SSQ": {
+      "Guaranteed Flow Bit Rate - Downlink": {
+        "default": 100000,
+        "value": 100000,
+        "comment": "Guaranteed flow rate in the downlink",
+        "keywords": "Guaranteed,Flow,Bit,Rate,-,Downlink,Taxa,de,fluxo,garantida,no,downlink,Guaranteed,flow,rate,in,the,downlink"
+      },
+      "Guaranteed Flow Bit Rate - Uplink": {
+        "default": 100000,
+        "value": 100000,
+        "comment": "Guaranteed flow rate in the uplink",
+        "keywords": "Guaranteed,Flow,Bit,Rate,-,Uplink,Taxa,de,fluxo,garantida,no,uplink,Guaranteed,flow,rate,in,the,uplink"
+      },
+      "Max Flow Bit Rate - Downlink": {
+        "default": 100000,
+        "value": 100000,
+        "comment": "Maximum flow rate in the downlink",
+        "keywords": "Max,Flow,Bit,Rate,-,Downlink,Taxa,máxima,de,fluxo,no,downlink,Maximum,flow,rate,in,the,downlink"
+      },
+      "Max Flow Bit Rate - Uplink": {
+        "default": 100000,
+        "value": 100000,
+        "comment": "Maximum flow rate in the uplink",
+        "keywords": "Max,Flow,Bit,Rate,-,Uplink,Taxa,máxima,de,fluxo,no,uplink,Maximum,flow,rate,in,the,uplink"
+      },
+      "Maximum Data Burts Volume": {
+        "default": 0.001,
+        "value": 0.001,
+        "comment": "Maximum data burst volume",
+        "keywords": "Maximum,Data,Burts,Volume,Volume,máximo,de,rajadas,de,dados,Maximum,data,burst,volume"
+      },
+      "Maximum Packet Loss Rate": {
+        "default": 100000,
+        "value": 100000,
+        "comment": "Maximum packet loss rate",
+        "keywords": "Maximum,Packet,Loss,Rate,Taxa,máxima,de,perda,de,pacotes,Maximum,packet,loss,rate"
+      },
+      "Packet Delay Budget": {
+        "default": 0.00012,
+        "value": 0.00012,
+        "comment": "Packet Delay Budget",
+        "keywords": "Packet,Delay,Budget,Orçamento,de,atraso,de,pacotes,Packet,Delay,Budget"
+      },
+      "Packet Error Rate": {
+        "default": 1e-7,
+        "value": 1e-7,
+        "comment": "Packet Error Rate",
+        "keywords": "Packet,Error,Rate,Taxa,de,erro,de,pacotes,Packet,Error,Rate"
+      },
+      "Priority Level": {
+        "default": 1,
+        "value": 1,
+        "comment": "Priority level",
+        "keywords": "Priority,Level,Nível,de,prioridade,Priority,level"
+      }
+    },
+    "Shared": {
+      "default": false,
+      "value": false,
+      "comment": "Shared",
+      "keywords": "Shared,Compartilhado,Shared"
+    },
+    "Supported Data Network": {
+      "default": "internet",
+      "value": "internet",
+      "comment": "Supported Data Network",
+      "keywords": "Supported,Data,Network,Rede,de,Dados,Suportada,Supported,Data,Network"
+    },
+    "Supported device velocity": {
+      "default": 10,
+      "value": 10,
+      "comment": "Supported device velocity",
+      "keywords": "Supported,device,velocity,Velocidade,suportada,para,dispositivos,Supported,device,velocity"
+    },
+    "Synchronicity": {
+      "default": "Between BS and UE",
+      "value": "Between BS and UE",
+      "comment": "Synchronicity",
+      "keywords": "Synchronicity,Sincronicidade,Synchronicity"
+    },
+    "UE density": {
+      "default": 10000,
+      "value": 10000,
+      "comment": "UE density",
+      "keywords": "UE,density,Densidade,de,UEs,UE,density"
+    },
+    "availability": {
+      "default": 1,
+      "value": 1,
+      "comment": "Availability",
+      "keywords": "availability,Disponibilidade,Availability"
+    },
+    "exposed": {
+      "default": true,
+      "value": true,
+      "comment": "Exposed",
+      "keywords": "exposed,Exposto,Exposed"
+    },
+    "shared": {
+      "default": true,
+      "value": true,
+      "comment": "Shared",
+      "keywords": "shared,Compartilhado,Shared"
+    }
+  },
+  "resource_description": {
+    "core": {
+      "nfs": [
+        {
+          "config": {
+            "plmnSupportList": [
+              {
+                "plmnId": {
+                  "mcc": {
+                    "default": 208,
+                    "value": 208,
+                    "comment": "Mobile Country Code",
+                    "keywords": "mcc,Mobile,Country,Code"
+                  },
+                  "mnc": {
+                    "default": 93,
+                    "value": 93,
+                    "comment": "Mobile Network Code",
+                    "keywords": "mnc,Mobile,Network,Code"
+                  }
+                },
+                "snssaiList": [
+                  {
+                    "sd": {
+                      "default": 4227,
+                      "value": 4227,
+                      "comment": "Slice Differentiator",
+                      "keywords": "sd,Slice,Differentiator"
+                    },
+                    "sst": {
+                      "default": 1,
+                      "value": 1,
+                      "comment": "Slice/Service Type",
+                      "keywords": "sst,Slice/Service,Type"
+                    }
+                  },
+                  {
+                    "sd": {
+                      "default": 112233,
+                      "value": 112233,
+                      "comment": "Slice Differentiator",
+                      "keywords": "sd,Slice,Differentiator"
+                    },
+                    "sst": {
+                      "default": 1,
+                      "value": 1,
+                      "comment": "Slice/Service Type",
+                      "keywords": "sst,Slice/Service,Type"
+                    }
+                  }
+                ]
+              }
+            ],
+            "supportDnnList": {
+              "default": [
+                "internet"
+              ],
+              "value": [
+                "internet"
+              ],
+              "comment": "list of supported DNs (Data Networks)",
+              "keywords": "supportDnnList,lista,de,DNs,(Data,Networks),suportadas,list,of,supported,DNs,(Data,Networks)"
+            }
+          },
+          "name": {
+            "default": "amf",
+            "value": "amf",
+            "comment": "Access and Mobility Management Function",
+            "keywords": "name,Access,and,Mobility,Management,Function"
+          },
+          "node": {
+            "default": [
+              "new_york"
+            ],
+            "value": [
+              "new_york"
+            ],
+            "comment": "node",
+            "keywords": "node,nó,node"
+          }
+        },
+        {
+          "name": {
+            "default": "nrf",
+            "value": "nrf",
+            "comment": "Network Repository Function",
+            "keywords": "name,Network,Repository,Function"
+          }
+        },
+        {
+          "name": {
+            "default": "ausf",
+            "value": "ausf",
+            "comment": "Authentication Server Function",
+            "keywords": "name,Authentication,Server,Function"
+          }
+        },
+        {
+          "name": {
+            "default": "nssf",
+            "value": "nssf",
+            "comment": "Network Slice Selection Function",
+            "keywords": "name,Network,Slice,Selection,Function"
+          }
+        },
+        {
+          "name": {
+            "default": "pcf",
+            "value": "pcf",
+            "comment": "Policy Control Function",
+            "keywords": "name,Policy,Control,Function"
+          }
+        },
+        {
+          "name": {
+            "default": "udm",
+            "value": "udm",
+            "comment": "Unified Data Management",
+            "keywords": "name,Unified,Data,Management"
+          }
+        },
+        {
+          "name": {
+            "default": "udr",
+            "value": "udr",
+            "comment": "Unified Data Repository",
+            "keywords": "name,Unified,Data,Repository"
+          }
+        },
+        {
+          "name": {
+            "default": "smf",
+            "value": "smf",
+            "comment": "Session Management Function",
+            "keywords": "name,Session,Management,Function"
+          }
+        },
+        {
+          "name": {
+            "default": "upf",
+            "value": "upf",
+            "comment": "User Plane Function",
+            "keywords": "name,User,Plane,Function"
+          }
+        }
+      ]
+    },
+    "ran": {
+      "nfs": [
+        {
+          "config": {
+            "amfConfigs": [
+              {
+                "address": {
+                  "default": "127.0.0.1",
+                  "value": "127.0.0.1",
+                  "comment": "IP address",
+                  "keywords": "address,endereço,IP,IP,address"
+                },
+                "port": {
+                  "default": 38412,
+                  "value": 38412,
+                  "comment": "communication port",
+                  "keywords": "port,porta,de,comunicação,communication,port"
+                }
+              }
+            ],
+            "gtpIp": {
+              "default": "127.0.0.1",
+              "value": "127.0.0.1",
+              "comment": "GPRS Tunneling Protocol",
+              "keywords": "gtpIp,GPRS,Tunneling,Protocol"
+            },
+            "idLength": {
+              "default": 32,
+              "value": 32,
+              "comment": "length of a specific identifier",
+              "keywords": "idLength,comprimento,de,um,identificador,específico,length,of,a,specific,identifier"
+            },
+            "ignoreStreamIds": {
+              "default": true,
+              "value": true,
+              "comment": "ignore identification of IDs",
+              "keywords": "ignoreStreamIds,ignora,identificação,de,ids,ignore,identification,of,IDs"
+            },
+            "linkIp": {
+              "default": "127.0.0.1",
+              "value": "127.0.0.1",
+              "comment": "IP configured for an internal or external communication link",
+              "keywords": "linkIp,IP,configurado,para,um,link,de,comunicação,interno,ou,externo,IP,configured,for,an,internal,or,external,communication,link"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
